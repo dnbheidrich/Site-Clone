@@ -1,5 +1,46 @@
-*{
+
+
+.center{
+  display: flex;
+    justify-content: center;
+}
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color:blue;
+  border-radius: 50%;
+  display: flex;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.right { display: flex;
+  justify-content: flex-end;
+
+}
+
+.black{
+  background-color: black;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+.grad1 {
+  height: 50vh;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /
+
+
+}
+.grad2 {
+  height: 50vh;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+/*{
   outline: black;
   outline-width: 2px;
   outline-style: solid;
-}*/
+}
