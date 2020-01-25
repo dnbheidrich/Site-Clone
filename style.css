@@ -30,15 +30,15 @@
   justify-content: flex-start;
 }
 .grad1 {
-  height: 50vh;
+  height: 30%;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); 
 
 }
 .grad2 {
-  height: 50vh;
+  height: 30%;
   background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
 }
-/*{
+*{
   outline: black;
   outline-width: 2px;
   outline-style: solid;
