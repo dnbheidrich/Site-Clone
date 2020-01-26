@@ -3,6 +3,7 @@
 .center{
   display: flex;
     justify-content: center;
+    
 }
 .dot {
   height: 100px;
