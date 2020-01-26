@@ -11,21 +11,30 @@
 </head>
 <body>
   <div class="grad1 container-fluid">
-    <div class="row justify-content-between right">
-      <div class="col-4 navbar navbar-expand-sm navbar-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Action 1</a>
+              <a class="dropdown-item" href="#">Action 2</a>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="col-4 p-5">
-        <button type="button" class="btn btn-primary"></button>
-        <button type="button" class="btn btn-primary"></button>
-        <button type="button" class="btn btn-primary"></button>
-        <button type="button" class="btn btn-primary"></button>
-      </div>
-    </div>
+    </nav>
   </div>
         
         
@@ -63,7 +72,7 @@
   </div> -->
   <div class="grad1 container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-6"><h5>Clone</h5><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, aliquam laboriosam consectetur vitae dolor id repellat. Eveniet pariatur, quia magnam, quibusdam consectetur dolorum obcaecati cupiditate, quidem commodi ab saepe fugit.</p>
+      <div style="order 2" class="col-12 col-sm-6"><h5>Clone</h5><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, aliquam laboriosam consectetur vitae dolor id repellat. Eveniet pariatur, quia magnam, quibusdam consectetur dolorum obcaecati cupiditate, quidem commodi ab saepe fugit.</p>
         <div class="row"><div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary active">
             <input type="checkbox" name="" id="" checked autocomplete="off">
@@ -76,10 +85,9 @@
           </label>
         </div></div>
       </div>
-      <div order:-1 class="col-12 col-sm-6"><img src="https://picsum.photos/200" alt=""></div>
+      <div style="order 1" class="col-12 col-sm-6"><img src="https://picsum.photos/200" alt=""></div>
     </div>
   </div>
-  <hr>
   <div class="grad2 center container-fluid">
     <div class="row">
       <div class="col-12 col-sm-4">
@@ -106,14 +114,14 @@
   <hr>
   <div class="center purple container-fluid">
     <div class="row">
-    <div class="center right col-12"><i class="fab fa-google fa-10x"></i></div>
+    <div class="center right col-12"><i class="fab fa-google white fa-10x"></i></div>
     </div>
   </div>
   <footer>
     <div class="black container-fluid">
       <div class="row">
-        <div class="left col-6"><i class="fas fa-arrow-circle-left"></i></div>
-      <div class="right col-6"><i class="fas fa-arrow-circle-right"></i></div>
+        <div class="left col-6"><i class="fas fa-arrow-circle-left white"></i></div>
+      <div class="right col-6"><i class="fas fa-arrow-circle-right white"></i></div>
     </div>
     </div>
   </footer>
