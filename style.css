@@ -43,9 +43,8 @@
   
 }
 
-.navbar{
-  display: flex;
-  justify-content: space-between;
+.navbar-nav {
+  margin: auto;
 }
 /*{
   outline: black;
