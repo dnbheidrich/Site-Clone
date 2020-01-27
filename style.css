@@ -1,4 +1,14 @@
 
+.circle{
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bot {
+    display: flex;
+    justify-content: center;
+  }
+}
 .order1{
   order: 1;
 }
